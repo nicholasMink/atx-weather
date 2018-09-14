@@ -1,18 +1,34 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
 
+// import Weather from '../../helpers/api';
+// import LocationForm from '../LocationForm/LocationForm';
+import './App.css';
+import Data from '../Data/Data';
 class App extends Component {
+  constructor(props) {
+    super(props)
+  
+    this.state = {
+    }
+  }
+  componentDidMount() {
+    
+  }
+  
   render() {
+    // let data = Weather.fetchWeatherById();
+    // // let cityName = '';
+    // data.then(res => {
+    //   console.log(res);
+    //   this.setState({cityName: res.name});
+    // })
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">ATX Weather</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+          <Data />
+          <div id="map" /> 
       </div>
     );
   }
