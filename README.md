@@ -1,8 +1,5 @@
 # ATX Weather
 
-- Implement service worker for offline caching
-- Add data to cache indexed db using axios with idb
-- Get data from idb object store
 
 ## Table of Contents
 
@@ -21,12 +18,15 @@ Current functionality within the app includes:
 * Rendering map
 * Testing endpoint to avoid excessive api calls to openweathermap. The date for the testing returns 9/13/2018
  * `Current Weather`
+* Add data to cache indexed db using axios with idb
+* Get data from idb object store
 
 ## TODO
 
 Functionality within the app needed:
 
 * `Forecast` returns 5 day forecast in 3 hour intervals
+* Implement service worker for offline caching
 
 ## Sending Feedback
 
