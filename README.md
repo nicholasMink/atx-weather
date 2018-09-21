@@ -1,16 +1,3 @@
-# BENTLEY
-> Dr. K Price
-
-- cough has stayed productive 
-- switched back to old bronchodialator for hydro
-- has mucus clogged up in his nose which makes me think it's an infection
-- which happens with his cough sometimes
-- giving leftover amoxicillin from previous infection in May and it seems to have gotten better but still waking up middle of night
-- glucose levels range between 184 - 342
-
-
-
-
 # ATX Weather
 
 - Implement service worker for offline caching
@@ -39,11 +26,11 @@ Current functionality within the app includes:
 
 Functionality within the app needed:
 
-* `Forecast` returns 6 day forecast in 3 hour intervals
+* `Forecast` returns 5 day forecast in 3 hour intervals
 
 ## Sending Feedback
 
-We are always open to [your feedback](https://github.com/nicholasMink/atx-weather).
+I am always open to [your feedback](https://github.com/nicholasMink/atx-weather).
 
 ## Folder Structure
 
@@ -71,18 +58,25 @@ atx-weather/
         App.css
         App.js
         App.spec.js
-      Data/
-        Data.css
-        Data.jsx
-        Data.spec.js
-      LocationForm/
-        LocationForm.css
-        LocationForm.jsx
-        LocationForm.spec.js
+      Conditions/
+        Conditions.css
+        Conditions.jsx
+        Conditions.spec.js
+      Forecast/
+        Forecast.css
+        Forecast.jsx
+        Forecast.spec.js
+      Header/
+        Header.css
+        Header.jsx
+        Header.spec.js
       Map/
         Map.css
         Map.jsx
         Map.spec.js
+    controller/
+      controller.js
+      dbhelp.js
 ```
 
 ## Available Scripts
