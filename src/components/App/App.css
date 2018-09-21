@@ -2,11 +2,11 @@
   margin: 0;
   display: flex;
   flex-flow: column nowrap;
+  color: #333;
 }
 
 .App-header {
   background-color: #222;
-  /* padding: 20px; */
   color: #fff;
 }
 

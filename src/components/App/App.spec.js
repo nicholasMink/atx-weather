@@ -1,7 +1,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 import App from './App';
-import Stats from '../Stats/Stats';
+import Data from '../Data/Data';
 
 describe('App', () => {
   let wrapper;
@@ -17,7 +17,7 @@ describe('App', () => {
     expect(wrapper.find('div').length).toEqual(1);
   });
 
-  it('should render the Calculator Component', () => {
-    expect(wrapper.containsMatchingElement(<Stats />)).toEqual(true);
+  it('should render the Data Component', () => {
+    expect(wrapper.containsMatchingElement(<Data />)).toEqual(true);
   });
 });

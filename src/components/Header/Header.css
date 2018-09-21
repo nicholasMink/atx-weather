@@ -1,0 +1,24 @@
+.header__wrapper {
+  background: linear-gradient(63.69deg, #1E3755 0%, #6F7DFC 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 1.5rem 1rem;
+}
+.header__wrapper h1,
+.header__wrapper h2 {
+  color: #fff;
+  line-height: 1.2rem;
+}
+.header__wrapper h1 {
+  font-weight: 200;
+}
+.header__wrapper h2 {
+  font-weight: 400;
+}
+.header__description {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-transform: capitalize;
+  line-height: 0;
+  margin-top: 4rem;
+}

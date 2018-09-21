@@ -1,9 +1,11 @@
 {
-  "name": "nfl-stats",
+  "name": "atx-weather",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "google-map-react": "^1.0.6",
+    "idb": "^2.1.3",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   },

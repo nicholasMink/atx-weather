@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
-
+// import weatherAPI from '../api/api';
 // import Weather from '../../helpers/api';
 // import LocationForm from '../LocationForm/LocationForm';
 import './App.css';
-import Data from '../Data/Data';
+import Conditions from '../Conditions/Conditions';
+import Header from '../Header/Header';
+import Forecast from '../Forecast/Forecast';
+
 class App extends Component {
   constructor(props) {
     super(props)
@@ -16,19 +19,11 @@ class App extends Component {
   }
   
   render() {
-    // let data = Weather.fetchWeatherById();
-    // // let cityName = '';
-    // data.then(res => {
-    //   console.log(res);
-    //   this.setState({cityName: res.name});
-    // })
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">ATX Weather</h1>
-        </header>
-          <Data />
-          <div id="map" /> 
+        <Header location="Austin, TX" />
+        <Conditions />
+        <Forecast />
       </div>
     );
   }

@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Map should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Map
+    center={
+        Object {
+            "lat": 30.27,
+            "lng": -97.745,
+          }
+    }
+    zoom={11}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <GoogleMap
+        bootstrapURLKeys={
+                Object {
+                        "key": "AIzaSyDlRnBdMvhFPtUdJnramc_kLQOwMEyfbYs",
+                      }
+        }
+        debounced={true}
+        defaultCenter={
+                Object {
+                        "lat": 30.27,
+                        "lng": -97.745,
+                      }
+        }
+        defaultZoom={11}
+        distanceToMouse={[Function]}
+        googleMapLoader={[Function]}
+        heatmap={Object {}}
+        heatmapLibrary={false}
+        hoverDistance={30}
+        layerTypes={Array []}
+        options={[Function]}
+        style={
+                Object {
+                        "height": "100%",
+                        "margin": 0,
+                        "padding": 0,
+                        "position": "relative",
+                        "width": "100%",
+                      }
+        }
+        yesIWantToUseGoogleMapApiInternals={false}
+>
+        <Unknown
+                lat={30.231798}
+                lng={-97.780521}
+                text="MINK Weather Station"
+        />
+</GoogleMap>,
+      "style": Object {
+        "height": "100vh",
+        "width": "100%",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "bootstrapURLKeys": Object {
+          "key": "AIzaSyDlRnBdMvhFPtUdJnramc_kLQOwMEyfbYs",
+        },
+        "children": <Unknown
+          lat={30.231798}
+          lng={-97.780521}
+          text="MINK Weather Station"
+/>,
+        "debounced": true,
+        "defaultCenter": Object {
+          "lat": 30.27,
+          "lng": -97.745,
+        },
+        "defaultZoom": 11,
+        "distanceToMouse": [Function],
+        "googleMapLoader": [Function],
+        "heatmap": Object {},
+        "heatmapLibrary": false,
+        "hoverDistance": 30,
+        "layerTypes": Array [],
+        "options": [Function],
+        "style": Object {
+          "height": "100%",
+          "margin": 0,
+          "padding": 0,
+          "position": "relative",
+          "width": "100%",
+        },
+        "yesIWantToUseGoogleMapApiInternals": false,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "lat": 30.231798,
+          "lng": -97.780521,
+          "text": "MINK Weather Station",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <GoogleMap
+          bootstrapURLKeys={
+                    Object {
+                              "key": "AIzaSyDlRnBdMvhFPtUdJnramc_kLQOwMEyfbYs",
+                            }
+          }
+          debounced={true}
+          defaultCenter={
+                    Object {
+                              "lat": 30.27,
+                              "lng": -97.745,
+                            }
+          }
+          defaultZoom={11}
+          distanceToMouse={[Function]}
+          googleMapLoader={[Function]}
+          heatmap={Object {}}
+          heatmapLibrary={false}
+          hoverDistance={30}
+          layerTypes={Array []}
+          options={[Function]}
+          style={
+                    Object {
+                              "height": "100%",
+                              "margin": 0,
+                              "padding": 0,
+                              "position": "relative",
+                              "width": "100%",
+                            }
+          }
+          yesIWantToUseGoogleMapApiInternals={false}
+>
+          <Unknown
+                    lat={30.231798}
+                    lng={-97.780521}
+                    text="MINK Weather Station"
+          />
+</GoogleMap>,
+        "style": Object {
+          "height": "100vh",
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "bootstrapURLKeys": Object {
+            "key": "AIzaSyDlRnBdMvhFPtUdJnramc_kLQOwMEyfbYs",
+          },
+          "children": <Unknown
+            lat={30.231798}
+            lng={-97.780521}
+            text="MINK Weather Station"
+/>,
+          "debounced": true,
+          "defaultCenter": Object {
+            "lat": 30.27,
+            "lng": -97.745,
+          },
+          "defaultZoom": 11,
+          "distanceToMouse": [Function],
+          "googleMapLoader": [Function],
+          "heatmap": Object {},
+          "heatmapLibrary": false,
+          "hoverDistance": 30,
+          "layerTypes": Array [],
+          "options": [Function],
+          "style": Object {
+            "height": "100%",
+            "margin": 0,
+            "padding": 0,
+            "position": "relative",
+            "width": "100%",
+          },
+          "yesIWantToUseGoogleMapApiInternals": false,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "lat": 30.231798,
+            "lng": -97.780521,
+            "text": "MINK Weather Station",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

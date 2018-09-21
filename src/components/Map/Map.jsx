@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 import './Map.css';
 
-const TipText = ({ text }) => <div className="tipText">{text}</div>;
+export const TipText = ({ text }) => <div className="tipText">{text}</div>;
 
-export default class Map extends Component {
+export class Map extends Component {
   static defaultProps = {
     center: {
       lat: 30.27,
@@ -23,3 +23,4 @@ export default class Map extends Component {
     )
   }
 }
+export default Map

@@ -28,8 +28,9 @@ export default function register() {
       // serve assets; see https://github.com/facebookincubator/create-react-app/issues/2374
       return;
     }
-
     window.addEventListener('load', () => {
+      if (!navigator.serviceWorker) return;
+      
       const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
 
       if (isLocalhost) {
@@ -53,6 +54,7 @@ export default function register() {
 }
 
 function registerValidSW(swUrl) {
+
   navigator.serviceWorker
     .register(swUrl)
     .then(registration => {
@@ -60,7 +62,9 @@ function registerValidSW(swUrl) {
         const installingWorker = registration.installing;
         installingWorker.onstatechange = () => {
           if (installingWorker.state === 'installed') {
+            console.log('service worker installed with scope:', registration.scope)
             if (navigator.serviceWorker.controller) {
+              console.log('Service worker controller in Navigator');
               // At this point, the old content will have been purged and
               // the fresh content will have been added to the cache.
               // It's the perfect time to display a "New content is
